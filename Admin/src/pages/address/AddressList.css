@@ -1,0 +1,12 @@
+.AddressInput {
+
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.Address {
+    display: flex;
+    width: 500px;
+}

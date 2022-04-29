@@ -1,0 +1,54 @@
+.staffList {
+    flex: 4;
+    margin: 5px 20px 50px 20px;
+    height: calc(90vh - 45px);
+
+}
+
+.staffListStaff {
+    display: flex;
+    align-items: center;
+
+}
+
+.staffListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.staffListImg:hover {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    /* text-align: center; */
+    border-radius: 5px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.staffListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.staffListDelete {
+    color: red;
+    cursor: pointer;
+}
+
+.staffListEdit:hover, .staffListDelete:hover {
+    opacity: 0.6;
+}

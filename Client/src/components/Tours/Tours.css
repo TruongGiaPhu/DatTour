@@ -1,0 +1,244 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grids {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.wides {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.rowProducts {
+    margin-bottom: 50px;
+}
+
+.colDanhMuc {
+    background-color: rgb(255, 255, 255);
+}
+
+.DanhMuc {
+    margin-top: 120px;
+    background-color: rgb(189, 244, 255);
+    border-radius: 10px;
+}
+
+
+.cols {
+    text-align: center;
+    /* background-color: rgb(72, 255, 0); */
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.col2 {
+    background-color: rgb(95, 95, 95);
+}
+
+.colTrongNuoc {
+    /* border-right: 1px solid rgb(245, 245, 245); */
+    /* background-color: rgb(95, 95, 95); */
+}
+
+.colNuocNgoai {
+    
+    /* background-color: rgb(95, 95, 95); */
+}
+
+.DanhMuc_Link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.DanhMuc_Link:hover {
+    color: rgb(255, 78, 78);
+}
+
+.item_ul {
+    list-style-type: none;
+    margin: 10px 0px;
+    line-height: 2em;
+}
+
+
+.item_Link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.item_li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-left: 3px solid rgb(219, 219, 219);
+    font-weight: bold;
+}
+
+.quocgia_decoration {
+    text-decoration: none;
+}
+
+.item_li:hover {
+    background-color: rgb(226, 249, 255);
+}
+
+
+.item_Link:hover {
+    color: rgb(255, 78, 78);
+    margin: 10px 0px;
+}
+/* Search */
+.Search {
+    margin-top: 100px;
+}
+
+.input_Search {
+    height: 40px;
+    width: 350px;
+    float: center;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.button_Search {
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+
+
+/* List Tours */
+.rowsTours {
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.cols_Item {
+    margin: 0px;
+    padding: 10px;
+    max-height: 500px;
+}
+
+.colsTours {
+    background-color: rgb(255, 255, 255);
+}
+
+.rowsItem {
+    background-color: rgb(250, 236, 236);
+    border-radius: 15px;
+    object-fit: cover;
+    transition: all 0.2s linear;
+    box-shadow: 10px 10px 10px #dbdbdb;
+}
+
+.rowsItem:hover {
+    transform: scale(1.02);
+}
+
+.tour_image {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0 0;
+}
+
+.div_item_name {
+    height: 83px;
+    
+}
+
+.item_name {
+    padding-left: 2px;
+    padding-right: 2px;
+    color: rgb(0, 8, 83);
+}
+
+.price_div {
+    padding: 10px;
+    background-color: #ffc6c6;
+    border-radius: 0 0 10px 10px;
+}
+
+.price_span {
+    color: red;
+    font-weight: bold;
+}
+
+.Link_Item {
+    text-decoration: none;
+}
+
+
+
+/** Pagination ***/
+.rowsPagination {
+    margin-top: 20px;
+}
+
+.ul_pagination {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.active1 {
+    margin: 0 10px;
+    border: 1px solid rgb(0, 0, 0);
+    /* padding: 0 5px; */
+    text-align: center;
+    color: rgb(255, 0, 0);
+    background-color: rgb(212, 212, 212);
+    width: 30px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.active2 {
+    margin: 0 10px;
+    border: 1px solid rgb(0, 0, 0);
+    /* padding: 0 5px; */
+    background-color: rgb(245, 245, 245);
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.btn_left {
+    
+
+    width: 30px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+.btn_right {
+    width: 30px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 740px) {
+    .DanhMuc {
+        margin-top: 80px;
+    }
+
+    .Search {
+        margin-top: 20px;
+    }
+
+}

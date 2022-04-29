@@ -1,0 +1,187 @@
+
+.title_history {
+    margin-top: 130px;
+}
+
+.container_History {
+    height: 400px;
+    margin-bottom: 200px;
+    margin-top: 30px;
+}
+
+
+
+
+.id_history {
+    white-space: nowrap; 
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.id_history:hover {
+    overflow: visible;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: 600;
+    padding: 5px
+}
+
+
+
+.Tour_id_history {
+    white-space: nowrap; 
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Tour_id_history:hover {
+    overflow: visible;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: 600;
+    padding: 5px
+}
+
+
+
+
+
+.img_history {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.img_history:hover {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 200000;
+    left: auto;
+    bottom: auto;
+
+}
+
+
+
+
+.name_history {
+    white-space: nowrap; 
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.name_history:hover {
+    overflow: visible;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: 600;
+    padding: 5px
+}
+
+
+
+.itinerary_history {
+    white-space: nowrap; 
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.itinerary_history:hover {
+    overflow: visible;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: 600;
+    padding: 5px
+}
+
+
+
+
+
+.price_history {
+    white-space: nowrap; 
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price_history:hover {
+    overflow: visible;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: 600;
+    padding: 5px
+}
+
+
+
+
+.price_kid_history {
+    white-space: nowrap; 
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price_kid_history:hover {
+    overflow: visible;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: 600;
+    padding: 5px
+}
+
+
+
+
+.dateCreate_history {
+    white-space: nowrap; 
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dateCreate_history:hover {
+    overflow: visible;
+    position: absolute;
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: auto;
+    font-weight: 600;
+    padding: 5px
+}
+
+
+
+
+
+

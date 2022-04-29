@@ -1,0 +1,50 @@
+.TicketList {
+    flex: 4;
+    margin: 5px 20px 20px 20px;
+    height: calc(90vh - 45px);
+}
+
+.ticketList {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.ticketListItem {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.ticketListItem>label {
+    margin-top: 8px;
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.ticketListItem>input, .ticketListItem>select {
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.ticketListItem>input {
+    width: 500px;
+
+}
+
+.ticketListItem>input[type="submit"] {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    width: auto !important;
+    margin-left: 80px;
+
+}

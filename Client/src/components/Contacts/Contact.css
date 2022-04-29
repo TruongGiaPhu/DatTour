@@ -1,0 +1,32 @@
+
+
+.row{
+    margin: 20px 20px 0 20px;
+}
+.row>div>p{
+    margin-top: 1px;
+    margin-bottom: 3px; 
+}
+.row>div>h4{
+    margin-bottom: 1px; 
+}
+.row>div>label{
+    font-weight: bold;
+}
+.map{
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+.LC{
+    list-style: none;
+    font-size: 15px ;
+    margin-bottom: 3px;
+}
+.LC li{
+    padding: 1px 0 1px 0;
+}
+.LC a{
+    margin-left: 3px;
+    text-decoration: none;
+}
+

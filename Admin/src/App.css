@@ -1,0 +1,20 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+
+:root {
+  --main-color-blue: #349eff;
+}
+
+.container {
+  margin-left: 300px;
+  display: flex;
+}
+
+.datagrid {
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.59);
+}
